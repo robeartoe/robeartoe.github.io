@@ -1,5 +1,44 @@
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+body, p {
+    font-family: 'Lusitana', serif;
+}
+
+.background{
+    background-color: #a8D0E6;
+}
+
+.photoBackground{
+    background-color: #23305E;
+}
+
+.differentP{
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #23305E;
+}
+
+a:hover {
+    color: #F8E9A1
+}
+
+.whiteText{
+    color: #FEFFFF;
+}
+
+.grayText{
+    color: #4c4c4c;
+}
+
+
 .menu {
-    display: inline-block;
+    display: flex;
+    border-bottom: 3px solid #F76C6C;
 }
 
 #nav_menu {
@@ -11,4 +50,22 @@
     float: left;
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.photo{
+    overflow: hidden;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.imageContainer{
+    text-align: center;
+}
+
+.altUL{
+    list-style: square;
+}
+
+.altOL{
+    list-style: lower-alpha;
 }
